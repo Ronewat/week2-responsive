@@ -1,0 +1,49 @@
+:root {
+  --border-radius: 8px;
+  --padding: 15px 20px;
+  --border: 1px solid purple;
+}
+h1 {
+  color: violet;
+}
+
+.name {
+  font-size: 48px;
+  padding-bottom: 5px;
+  color: purple;
+}
+.test {
+  color: brown;
+}
+
+.hello {
+  text-align: center;
+}
+.free {
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  margin: 20px auto;
+  border: var(--border);
+  padding: var(--padding);
+  border-radius: var(--border-radius);
+  background: violet;
+  box-shadow: 2px 2px 4px purple;
+}
+.deco {
+  color: white;
+  text-decoration: none;
+}
+.about {
+  margin: 20px auto;
+  border: var(--border);
+  padding: var(--padding);
+  border-radius: var(--border-radius);
+  box-shadow: 2px 2px 4px violet;
+}
+
+.deck {
+  color: violet;
+  text-decoration: none;
+}
